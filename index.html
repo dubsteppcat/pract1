@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Практика 12</title>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+    <header>
+       <div class="menu">
+        <a href="#">Главная</a>
+        <a id="show_add_photo"  href="#">Фото</a>
+        <a href="#">Посты</a>
+        <a href="#">Личный кабинет</a>
+       </div>
+        <div class="mob_icon">
+            <img src="align-left.png">
+        </div>
+    </header>
+    <h1>Галерея</h1>
+    <div id="grid">
+        <div class="photo">
+            <img src="1.png">
+            <p> pic1</p>
+        </div>   
+        <div class="photo">
+            <img src="2.png">
+            <p> pic2</p>
+        </div>   
+        <div class="photo">
+            <img src="3.png">
+            <p> pic3</p>
+        </div>   
+        <div class="photo">
+            <img src="4.png">
+            <p> pic4</p>
+        </div>   
+    </div>
+    <div id="add_new_photo">
+        <div>
+           <input type="text" id="new_photo_src" placeholder="Фото">
+           <input type="text" id="new_photo_text" placeholder="Подпись">
+           <button id="add_photo">Добавить</button>
+           <button id="cancel">Отмена</button>
+        </div>
+    </div>
+    <div id="menu_photo">
+        <img src="" alt="">
+    </div>
+   <script src="Script.js"></script>
+</body>
+</html>
